@@ -210,6 +210,50 @@
 		</header>
 
 		<!-- Films -->
+<section class="films">
+			<div class="container">
+				<div class="films__options">
+					<div class="films__tabs">
+						<p class="films__tab active">All</p>
+						<p class="films__tab">Netflix</p>
+						<p class="films__tab">Amazon Prime</p>
+					</div>
+
+					<div class="films__filter">
+						<div class="films__checkboxes">
+							<div class="films__checkbox-wrap">
+								<input type="checkbox" id="tv-checkbox">
+								<label for="tv-checkbox" class="films__checkbox"></label>
+								<label for="tv-checkbox" class="films__checkbox-text">TV</label>
+							</div>
+
+							<div class="films__checkbox-wrap">
+								<input type="checkbox" id="movie-checkbox">
+								<label for="movie-checkbox" class="films__checkbox"></label>
+								<label for="movie-checkbox" class="films__checkbox-text">Movie</label>
+							</div>
+						</div>
+
+						<div class="select films-select" id="films-select" data-select-required="true">
+							<div class="select__title films-select__title">
+								<p class="select__value films-select__value">Genre</p>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="select__icon films-select__icon" fill="#000" width="22px" height="22px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+							</div>
+
+							<div class="select__list films-select__list">
+								<input type="checkbox" class="select__input" id="films-1">
+								<label for="films-1" class="select__label films-select__label">Genre 1</label>
+								<input type="checkbox" class="select__input" id="films-2">
+								<label for="films-2" class="select__label films-select__label">Genre 2</label>
+								<input type="checkbox" class="select__input" id="films-3">
+								<label for="films-3" class="select__label films-select__label">Genre 3</label>
+							</div>
+						</div>
+
+						<div class="films__range">
+							<div class="films__range-text">Age</div>
+							<div id="films-range" class="films__line"></div>
+						</div>
 
 		
 						<div class="select sort-select" id="sort-select">
